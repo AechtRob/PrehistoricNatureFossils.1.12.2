@@ -335,6 +335,12 @@ public class ModTriggers
     public static final CustomTrigger EOCARCHARIA_COMPLETE = new CustomTrigger("adv_eocarcharia");
     public static final CustomTrigger CTENOCHASMA_COMPLETE = new CustomTrigger("adv_ctenochasma");
     public static final CustomTrigger PTERODAUSTRO_COMPLETE = new CustomTrigger("adv_pterodaustro");
+    public static final CustomTrigger QIANOSUCHUS_COMPLETE = new CustomTrigger("adv_qianosuchus");
+    public static final CustomTrigger ANTHRACOSAURUS_COMPLETE = new CustomTrigger("adv_anthracosaurus");
+    public static final CustomTrigger KANNEMEYERIA_COMPLETE = new CustomTrigger("adv_kannemeyeria");
+    public static final CustomTrigger TYRANNOTITAN_COMPLETE = new CustomTrigger("adv_tyrannotitan");
+    public static final CustomTrigger TERATERPETON_COMPLETE = new CustomTrigger("adv_teraterpeton");
+    public static final CustomTrigger TRILOPHOSAURUS_COMPLETE = new CustomTrigger("adv_trilophosaurus");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
@@ -506,6 +512,12 @@ public class ModTriggers
             EOCARCHARIA_COMPLETE,
             CTENOCHASMA_COMPLETE,
             PTERODAUSTRO_COMPLETE,
+            QIANOSUCHUS_COMPLETE,
+            ANTHRACOSAURUS_COMPLETE,
+            KANNEMEYERIA_COMPLETE,
+            TYRANNOTITAN_COMPLETE,
+            TERATERPETON_COMPLETE,
+            TRILOPHOSAURUS_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,

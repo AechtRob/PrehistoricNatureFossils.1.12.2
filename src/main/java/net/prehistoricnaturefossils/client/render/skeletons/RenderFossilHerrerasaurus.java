@@ -1,6 +1,5 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
-import net.lepidodendron.entity.render.entity.RenderHerrerasaurus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -109,7 +108,7 @@ public class RenderFossilHerrerasaurus extends TileEntitySpecialRenderer<TileEnt
 
         GlStateManager.enableAlpha();
         ModelSkeletonHerrerasaurus modelSkeleton = this.modelSkeleton;
-        double scale = RenderHerrerasaurus.getScaler() * RenderDisplayWallMount.scaler;
+        double scale = 0.785F * RenderDisplayWallMount.scaler;
 
         GlStateManager.translate(x + 0.5, y + 1.14, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
@@ -130,7 +129,7 @@ public class RenderFossilHerrerasaurus extends TileEntitySpecialRenderer<TileEnt
             this.bindTexture(FRAME);
             GlStateManager.enableAlpha();
             ModelSkeletonHerrerasaurusFrame modelSkeletonFrame = this.modelSkeletonFrame;
-            scale = RenderHerrerasaurus.getScaler() * RenderDisplayWallMount.scaler;
+            scale = 0.785F * RenderDisplayWallMount.scaler;
             GlStateManager.translate(x + 0.5, y + 1.14, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);

@@ -503,6 +503,18 @@ advancements.ctenochasma.title=Comb Jaw
 advancements.ctenochasma.description=Complete a Ctenochasma skeleton
 advancements.pterodaustro.title=Southern Wing
 advancements.pterodaustro.description=Complete a Pterodaustro skeleton
+advancements.qianosuchus.title="Qian" (Guizhou) Crocodile
+advancements.qianosuchus.description=Complete a Qianosuchus skeleton
+advancements.anthracosaurus.title=Coal Lizard
+advancements.anthracosaurus.description=Complete an Anthracosaurus skeleton
+advancements.kannemeyeria.title=Kannemeyer's
+advancements.kannemeyeria.description=Complete a Kannemeyeria skeleton
+advancements.tyrannotitan.title=Titanic Tyrant
+advancements.tyrannotitan.description=Complete a Tyrannotitan skeleton
+advancements.teraterpeton.title=Wonderous Creeping Thing
+advancements.teraterpeton.description=Complete a Teraterpeton skeleton
+advancements.trilophosaurus.title=Three Crested Lizard
+advancements.trilophosaurus.description=Complete a Trilophosaurus skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -1148,6 +1160,12 @@ tile.pf_skeleton_polacanthus.name=Polacanthus Displayable Fossil
 tile.pf_skeleton_eocarcharia.name=Eocarcharia Displayable Fossil
 tile.pf_skeleton_ctenochasma.name=Ctenochasma Displayable Fossil
 tile.pf_skeleton_pterodaustro.name=Pterodaustro Displayable Fossil
+tile.pf_skeleton_qianosuchus.name=Qianosuchus Displayable Fossil
+tile.pf_skeleton_anthracosaurus.name=Anthracosaurus Displayable Fossil
+tile.pf_skeleton_kannemeyeria.name=Kannemeyeria Displayable Fossil
+tile.pf_skeleton_tyrannotitan.name=Tyrannotitan Displayable Fossil
+tile.pf_skeleton_teraterpeton.name=Teraterpeton Displayable Fossil
+tile.pf_skeleton_trilophosaurus.name=Trilophosaurus Displayable Fossil
 
 
 item.pf_fossil_slabber.name=Slate Splitter

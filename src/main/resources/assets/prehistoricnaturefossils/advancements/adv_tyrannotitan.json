@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tyrannotitan"
+		  },
+		"title": {
+			"translate": "advancements.tyrannotitan.title"
+		},
+		"description": {
+			"translate": "advancements.tyrannotitan.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_carcharodontosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tyrannotitan"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

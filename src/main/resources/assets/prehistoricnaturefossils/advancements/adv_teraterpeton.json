@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_teraterpeton"
+		  },
+		"title": {
+			"translate": "advancements.teraterpeton.title"
+		},
+		"description": {
+			"translate": "advancements.teraterpeton.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_crocopoda",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_teraterpeton"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_qianosuchus"
+		  },
+		"title": {
+			"translate": "advancements.qianosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.qianosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_poposauroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_qianosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

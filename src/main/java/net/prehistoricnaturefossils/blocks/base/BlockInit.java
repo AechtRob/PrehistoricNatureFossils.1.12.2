@@ -430,6 +430,12 @@ public class BlockInit {
     public static final Block FOSSIL_PTERODAUSTRO    = new BlockFossilPterodaustro();
     public static final Block FOSSIL_ALIENUM    = new BlockFossilAlienum();
     public static final Block FOSSIL_PAMBDELURION    = new BlockFossilPambdelurion();
+    public static final Block FOSSIL_QIANOSUCHUS    = new BlockFossilQianosuchus();
+    public static final Block FOSSIL_ANTHRACOSAURUS    = new BlockFossilAnthracosaurus();
+    public static final Block FOSSIL_KANNEMEYERIA    = new BlockFossilKannemeyeria();
+    public static final Block FOSSIL_TYRANNOTITAN    = new BlockFossilTyrannotitan();
+    public static final Block FOSSIL_TERATERPETON    = new BlockFossilTeraterpeton();
+    public static final Block FOSSIL_TRILOPHOSAURUS    = new BlockFossilTrilophosaurus();
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         IBlockState iblockstate = worldIn.getBlockState(pos);
