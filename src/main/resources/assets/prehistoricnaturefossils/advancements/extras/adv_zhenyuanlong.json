@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_zhenyuanlong"
+		  },
+		"title": {
+			"translate": "advancements.zhenyuanlong.title"
+		},
+		"description": {
+			"translate": "advancements.zhenyuanlong.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dromaeosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_zhenyuanlong"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

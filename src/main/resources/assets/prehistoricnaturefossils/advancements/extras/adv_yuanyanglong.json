@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yuanyanglong"
+		  },
+		"title": {
+			"translate": "advancements.yuanyanglong.title"
+		},
+		"description": {
+			"translate": "advancements.yuanyanglong.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_oviraptorosaurs",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yuanyanglong"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

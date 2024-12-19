@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_rangifer"
+		  },
+		"title": {
+			"translate": "advancements.rangifer.title"
+		},
+		"description": {
+			"translate": "advancements.rangifer.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_cervidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_rangifer"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

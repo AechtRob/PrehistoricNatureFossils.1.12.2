@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kannemeyeria"
+		  },
+		"title": {
+			"translate": "advancements.kannemeyeria.title"
+		},
+		"description": {
+			"translate": "advancements.kannemeyeria.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dicynodontiabig",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kannemeyeria"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

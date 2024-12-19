@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_nigersaurus"
+		  },
+		"title": {
+			"translate": "advancements.nigersaurus.title"
+		},
+		"description": {
+			"translate": "advancements.nigersaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:adv_diplodocoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_nigersaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

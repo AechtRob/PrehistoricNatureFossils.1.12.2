@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_nigerpeton"
+		  },
+		"title": {
+			"translate": "advancements.nigerpeton.title"
+		},
+		"description": {
+			"translate": "advancements.nigerpeton.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_temnospondyli",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_nigerpeton"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

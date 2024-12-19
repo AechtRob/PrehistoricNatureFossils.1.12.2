@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dinocrocuta"
+		  },
+		"title": {
+			"translate": "advancements.dinocrocuta.title"
+		},
+		"description": {
+			"translate": "advancements.dinocrocuta.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_hyaenidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dinocrocuta"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

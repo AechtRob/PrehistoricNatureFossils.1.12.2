@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_damadama"
+		  },
+		"title": {
+			"translate": "advancements.damadama.title"
+		},
+		"description": {
+			"translate": "advancements.damadama.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_cervidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_damadama"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_anthracosaurus"
+		  },
+		"title": {
+			"translate": "advancements.anthracosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.anthracosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_embolomeres",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_anthracosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

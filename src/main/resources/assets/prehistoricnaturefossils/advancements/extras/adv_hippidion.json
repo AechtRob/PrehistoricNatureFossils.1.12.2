@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hippidion"
+		  },
+		"title": {
+			"translate": "advancements.hippidion.title"
+		},
+		"description": {
+			"translate": "advancements.hippidion.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_hippomorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hippidion"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

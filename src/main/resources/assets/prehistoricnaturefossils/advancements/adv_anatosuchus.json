@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_anatosuchus"
+		  },
+		"title": {
+			"translate": "advancements.anatosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.anatosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_notosuchia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_anatosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

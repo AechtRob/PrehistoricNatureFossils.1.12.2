@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sinopterus"
+		  },
+		"title": {
+			"translate": "advancements.sinopterus.title"
+		},
+		"description": {
+			"translate": "advancements.sinopterus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sinopterus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

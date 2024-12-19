@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_torukjara"
+		  },
+		"title": {
+			"translate": "advancements.torukjara.title"
+		},
+		"description": {
+			"translate": "advancements.torukjara.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_torukjara"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

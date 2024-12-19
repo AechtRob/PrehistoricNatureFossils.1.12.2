@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_euhelopus"
+		  },
+		"title": {
+			"translate": "advancements.euhelopus.title"
+		},
+		"description": {
+			"translate": "advancements.euhelopus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_sauropods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_euhelopus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

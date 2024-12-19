@@ -91,7 +91,7 @@ public class RenderFossilPoposaurus extends TileEntitySpecialRenderer<TileEntity
         ModelSkeletonPoposaurus modelSkeleton = this.modelSkeleton;
         double scale = RenderPoposaurus.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 1.11, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -111,7 +111,7 @@ public class RenderFossilPoposaurus extends TileEntitySpecialRenderer<TileEntity
             GlStateManager.enableAlpha();
             ModelSkeletonPoposaurusFrame modelSkeletonFrame = this.modelSkeletonFrame;
             scale = RenderPoposaurus.getScaler() * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 1.11, z + 0.5);
+            GlStateManager.translate(x + 0.5, y + 1.13, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

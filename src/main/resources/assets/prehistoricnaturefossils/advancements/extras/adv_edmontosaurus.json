@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_edmontosaurus"
+		  },
+		"title": {
+			"translate": "advancements.edmontosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.edmontosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_saurolophines",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_edmontosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

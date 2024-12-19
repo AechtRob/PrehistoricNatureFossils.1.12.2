@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_fukuisaurus"
+		},
+		"title": {
+			"translate": "advancements.fukuisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.fukuisaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_fukuisaurus"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

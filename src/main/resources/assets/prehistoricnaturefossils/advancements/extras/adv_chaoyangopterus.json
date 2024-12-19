@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_chaoyangopterus"
+		  },
+		"title": {
+			"translate": "advancements.chaoyangopterus.title"
+		},
+		"description": {
+			"translate": "advancements.chaoyangopterus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_chaoyangopterus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

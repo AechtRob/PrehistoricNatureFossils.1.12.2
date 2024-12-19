@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_caiuajara"
+		  },
+		"title": {
+			"translate": "advancements.caiuajara.title"
+		},
+		"description": {
+			"translate": "advancements.caiuajara.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_caiuajara"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

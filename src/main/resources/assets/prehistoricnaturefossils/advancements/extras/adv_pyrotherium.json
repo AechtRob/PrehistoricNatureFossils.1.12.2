@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_pyrotherium"
+		  },
+		"title": {
+			"translate": "advancements.pyrotherium.title"
+		},
+		"description": {
+			"translate": "advancements.pyrotherium.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_meridiungulata",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_pyrotherium"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

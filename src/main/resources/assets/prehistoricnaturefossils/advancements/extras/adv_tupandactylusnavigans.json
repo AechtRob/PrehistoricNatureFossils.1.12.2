@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tupandactylusnavigans"
+		  },
+		"title": {
+			"translate": "advancements.tupandactylusnavigans.title"
+		},
+		"description": {
+			"translate": "advancements.tupandactylusnavigans.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tupandactylusnavigans"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

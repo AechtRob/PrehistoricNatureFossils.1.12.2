@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_prenocephale"
+		  },
+		"title": {
+			"translate": "advancements.prenocephale.title"
+		},
+		"description": {
+			"translate": "advancements.prenocephale.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_pachycephalosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_prenocephale"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dorudon"
+		  },
+		"title": {
+			"translate": "advancements.dorudon.title"
+		},
+		"description": {
+			"translate": "advancements.dorudon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_basilosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dorudon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

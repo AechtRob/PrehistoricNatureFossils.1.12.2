@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_shenzhoupterus"
+		  },
+		"title": {
+			"translate": "advancements.shenzhoupterus.title"
+		},
+		"description": {
+			"translate": "advancements.shenzhoupterus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_shenzhoupterus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

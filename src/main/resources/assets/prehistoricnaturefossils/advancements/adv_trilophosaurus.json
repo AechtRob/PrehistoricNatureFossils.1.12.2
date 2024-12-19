@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_trilophosaurus"
+		  },
+		"title": {
+			"translate": "advancements.trilophosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.trilophosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_crocopoda",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_trilophosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

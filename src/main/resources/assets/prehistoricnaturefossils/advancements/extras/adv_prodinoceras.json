@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_prodinoceras"
+		  },
+		"title": {
+			"translate": "advancements.prodinoceras.title"
+		},
+		"description": {
+			"translate": "advancements.prodinoceras.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dinocerata",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_prodinoceras"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

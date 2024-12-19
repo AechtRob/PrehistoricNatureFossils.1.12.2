@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hatzegopteryx"
+		  },
+		"title": {
+			"translate": "advancements.hatzegopteryx.title"
+		},
+		"description": {
+			"translate": "advancements.hatzegopteryx.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_azhdarchidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hatzegopteryx"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

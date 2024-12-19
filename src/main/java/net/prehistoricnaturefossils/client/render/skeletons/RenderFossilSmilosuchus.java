@@ -111,7 +111,7 @@ public class RenderFossilSmilosuchus extends TileEntitySpecialRenderer<TileEntit
         ModelSkeletonSmilosuchus modelSkeleton = this.modelSkeleton;
         double scale = RenderSmilosuchus.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 1.13, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -131,7 +131,7 @@ public class RenderFossilSmilosuchus extends TileEntitySpecialRenderer<TileEntit
             GlStateManager.enableAlpha();
             ModelSkeletonSmilosuchusFrame modelSkeletonFrame = this.modelSkeletonFrame;
             scale = RenderSmilosuchus.getScaler() * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 1.13, z + 0.5);
+            GlStateManager.translate(x + 0.5, y + 1.12, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

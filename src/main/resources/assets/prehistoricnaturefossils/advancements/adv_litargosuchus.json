@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_litargosuchus"
+		  },
+		"title": {
+			"translate": "advancements.litargosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.litargosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_pseudosuchians",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_litargosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

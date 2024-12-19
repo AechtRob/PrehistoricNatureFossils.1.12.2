@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_simosthenurus"
+		  },
+		"title": {
+			"translate": "advancements.simosthenurus.title"
+		},
+		"description": {
+			"translate": "advancements.simosthenurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_macropodidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_simosthenurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

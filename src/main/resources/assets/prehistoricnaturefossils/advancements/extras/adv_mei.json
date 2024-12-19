@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_mei"
+		  },
+		"title": {
+			"translate": "advancements.mei.title"
+		},
+		"description": {
+			"translate": "advancements.mei.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_troodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_mei"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

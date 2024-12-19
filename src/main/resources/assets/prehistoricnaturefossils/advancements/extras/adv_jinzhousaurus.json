@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_jinzhousaurus"
+		},
+		"title": {
+			"translate": "advancements.jinzhousaurus.title"
+		},
+		"description": {
+			"translate": "advancements.jinzhousaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_jinzhousaurus"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

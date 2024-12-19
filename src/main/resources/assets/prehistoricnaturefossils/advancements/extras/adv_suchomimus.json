@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_suchomimus"
+		  },
+		"title": {
+			"translate": "advancements.suchomimus.title"
+		},
+		"description": {
+			"translate": "advancements.suchomimus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_spinosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_suchomimus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

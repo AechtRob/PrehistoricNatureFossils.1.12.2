@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_oxydactylus"
+		  },
+		"title": {
+			"translate": "advancements.oxydactylus.title"
+		},
+		"description": {
+			"translate": "advancements.oxydactylus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_camelidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_oxydactylus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

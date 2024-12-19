@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_giraffatitan"
+		  },
+		"title": {
+			"translate": "advancements.giraffatitan.title"
+		},
+		"description": {
+			"translate": "advancements.giraffatitan.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:adv_macronaria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_giraffatitan"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

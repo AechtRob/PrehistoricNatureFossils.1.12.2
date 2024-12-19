@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_nicrosaurus"
+		  },
+		"title": {
+			"translate": "advancements.nicrosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.nicrosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_phytosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_nicrosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

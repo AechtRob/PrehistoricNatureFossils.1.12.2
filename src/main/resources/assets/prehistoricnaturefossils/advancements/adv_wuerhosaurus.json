@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_wuerhosaurus"
+		  },
+		"title": {
+			"translate": "advancements.wuerhosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.wuerhosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_stegosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_wuerhosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tyrannosaurus"
+		  },
+		"title": {
+			"translate": "advancements.tyrannosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.tyrannosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tyrannosaurids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tyrannosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

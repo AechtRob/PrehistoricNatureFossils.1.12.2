@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_protoceras"
+		  },
+		"title": {
+			"translate": "advancements.protoceras.title"
+		},
+		"description": {
+			"translate": "advancements.protoceras.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_protoceratids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_protoceras"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

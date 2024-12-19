@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_daurlong"
+		  },
+		"title": {
+			"translate": "advancements.daurlong.title"
+		},
+		"description": {
+			"translate": "advancements.daurlong.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dromaeosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_daurlong"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

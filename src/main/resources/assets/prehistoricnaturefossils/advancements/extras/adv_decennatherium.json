@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_decennatherium"
+		  },
+		"title": {
+			"translate": "advancements.decennatherium.title"
+		},
+		"description": {
+			"translate": "advancements.decennatherium.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_giraffoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_decennatherium"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}
