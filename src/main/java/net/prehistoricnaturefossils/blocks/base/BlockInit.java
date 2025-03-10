@@ -513,6 +513,10 @@ public class BlockInit {
     public static final Block FOSSIL_SPINOSAURUS    = new BlockFossilSpinosaurus();
     public static final Block FOSSIL_TUZOIA    = new BlockFossilTuzoia();
     public static final Block FOSSIL_TROPAEUM    = new BlockFossilTropaeum();
+    public static final Block FOSSIL_NASUTOCERATOPS    = new BlockFossilNasutoceratops();
+    public static final Block FOSSIL_MENOCERAS    = new BlockFossilMenoceras();
+    public static final Block FOSSIL_GASTORNIS    = new BlockFossilGastornis();
+    public static final Block FOSSIL_SINCLAIROMERYX    = new BlockFossilSinclairomeryx();
 
 
     //Skulls and so on:

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_nasutoceratops"
+		  },
+		"title": {
+			"translate": "advancements.nasutoceratops.title"
+		},
+		"description": {
+			"translate": "advancements.nasutoceratops.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_centrosaurinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_nasutoceratops"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

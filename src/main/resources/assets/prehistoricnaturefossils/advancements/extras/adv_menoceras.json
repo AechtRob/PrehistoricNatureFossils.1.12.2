@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_menoceras"
+		  },
+		"title": {
+			"translate": "advancements.menoceras.title"
+		},
+		"description": {
+			"translate": "advancements.menoceras.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_rhinocerotoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_menoceras"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

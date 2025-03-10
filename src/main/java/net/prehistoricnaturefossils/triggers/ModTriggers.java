@@ -417,6 +417,10 @@ public class ModTriggers
     public static final CustomTrigger SKORPIOVENATOR_COMPLETE = new CustomTrigger("adv_skorpiovenator");
     public static final CustomTrigger TETHYSHADROS_COMPLETE = new CustomTrigger("adv_tethyshadros");
     public static final CustomTrigger SPINOSAURUS_COMPLETE = new CustomTrigger("adv_spinosaurus");
+    public static final CustomTrigger NASUTOCERATOPS_COMPLETE = new CustomTrigger("adv_nasutoceratops");
+    public static final CustomTrigger MENOCERAS_COMPLETE = new CustomTrigger("adv_menoceras");
+    public static final CustomTrigger GASTORNIS_COMPLETE = new CustomTrigger("adv_gastornis");
+    public static final CustomTrigger SINCLAIROMERYX_COMPLETE = new CustomTrigger("adv_sinclairomeryx");
 
 
     public static final CustomTrigger AETOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_aetosaurs");
@@ -699,6 +703,10 @@ public class ModTriggers
             SKORPIOVENATOR_COMPLETE,
             TETHYSHADROS_COMPLETE,
             SPINOSAURUS_COMPLETE,
+            NASUTOCERATOPS_COMPLETE,
+            MENOCERAS_COMPLETE,
+            GASTORNIS_COMPLETE,
+            SINCLAIROMERYX_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,

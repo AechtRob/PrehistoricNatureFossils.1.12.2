@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_gastornis"
+		  },
+		"title": {
+			"translate": "advancements.gastornis.title"
+		},
+		"description": {
+			"translate": "advancements.gastornis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_anserimorphae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_gastornis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
