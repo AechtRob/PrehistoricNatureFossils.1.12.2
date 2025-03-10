@@ -39,7 +39,7 @@ public class BlockFossilXinpusaurus extends BlockSkeletonBase implements IArchiv
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_xinpusaurus";
+        return "mobdnaPNlepidodendron:prehistoric_flora_xinpusaurus@gendered";
     }
 
     @Nullable

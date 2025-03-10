@@ -38,7 +38,7 @@ public class BlockFossilHarpagofututor extends BlockSlabBase implements IArchive
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_harpagofututor";
+        return "mobdnaPNlepidodendron:prehistoric_flora_harpagofututor@gendered";
     }
 
     @Nullable

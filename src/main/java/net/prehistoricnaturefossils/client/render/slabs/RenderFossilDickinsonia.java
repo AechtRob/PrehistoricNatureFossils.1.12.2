@@ -47,7 +47,7 @@ public class RenderFossilDickinsonia extends TileEntitySpecialRenderer<TileEntit
         ModelSkeletonDickinsonia modelSkeleton = this.modelSkeleton;
         double scale = RenderDickinsonia.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 1.07;
+        double offset = 1.13;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

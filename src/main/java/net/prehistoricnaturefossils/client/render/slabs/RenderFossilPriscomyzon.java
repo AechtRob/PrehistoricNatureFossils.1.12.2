@@ -47,7 +47,7 @@ public class RenderFossilPriscomyzon extends TileEntitySpecialRenderer<TileEntit
         ModelSkeletonPriscomyzon modelSkeleton = this.modelSkeleton;
         double scale = RenderPriscomyzon.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.405;
+        double offset = 0.205;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

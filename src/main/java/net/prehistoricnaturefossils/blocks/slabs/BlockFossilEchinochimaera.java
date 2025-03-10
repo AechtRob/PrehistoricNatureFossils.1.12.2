@@ -38,7 +38,7 @@ public class BlockFossilEchinochimaera extends BlockSlabBase implements IArchive
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_echinochimaera";
+        return "mobdnaPNlepidodendron:prehistoric_flora_echinochimaera@gendered";
     }
 
     @Nullable

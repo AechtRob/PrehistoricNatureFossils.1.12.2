@@ -38,7 +38,7 @@ public class BlockFossilFalcatus extends BlockSlabBase implements IArchiveVerteb
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_falcatus";
+        return "mobdnaPNlepidodendron:prehistoric_flora_falcatus@gendered";
     }
 
     @Nullable

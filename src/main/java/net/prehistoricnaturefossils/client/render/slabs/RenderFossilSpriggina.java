@@ -47,7 +47,7 @@ public class RenderFossilSpriggina extends TileEntitySpecialRenderer<TileEntityF
         ModelSkeletonSpriggina modelSkeleton = this.modelSkeleton;
         double scale = RenderSpriggina.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.5;
+        double offset = 0.265;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);
