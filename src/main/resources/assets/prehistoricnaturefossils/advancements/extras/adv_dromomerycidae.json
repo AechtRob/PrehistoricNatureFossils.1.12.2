@@ -1,0 +1,21 @@
+{
+		"display": {
+			"icon": {
+				"item": "prehistoricnaturefossils:skeleton_placeholder"
+			},
+			"title": {
+				"translate": "advancements.dromomerycidae.title"
+			},
+			"description": {
+				"translate": "advancements.dromomerycidae.description"
+			},
+			"show_toast": false,
+			"announce_to_chat": false
+		},
+	"parent": "prehistoricnaturefossils:extras/adv_artiodactyla",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

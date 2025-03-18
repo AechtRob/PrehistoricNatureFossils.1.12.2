@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sinclairomeryx"
+		  },
+		"title": {
+			"translate": "advancements.sinclairomeryx.title"
+		},
+		"description": {
+			"translate": "advancements.sinclairomeryx.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dromomerycidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sinclairomeryx"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

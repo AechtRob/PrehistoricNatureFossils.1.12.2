@@ -710,6 +710,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_HALISKIA, 1),
                 new ItemStack(BlockInit.FOSSIL_SPECTROVENATOR, 1),
                 new ItemStack(BlockInit.FOSSIL_IKRANDRACO, 1),
+                new ItemStack(BlockInit.FOSSIL_NASUTOCERATOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_HAMIPTERUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DSUNGARIPTERUS, 1),
                 new ItemStack(BlockInit.FOSSIL_BEIPIAOSAURUS, 1),
@@ -820,8 +821,10 @@ public class FossilBlockDrops {
     public static ItemStack[] getPaleogeneDisplayableFossilDrops() {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_PRODINOCERAS, 1),
+                new ItemStack(BlockInit.FOSSIL_MENOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_PYROTHERIUM, 1),
                 new ItemStack(BlockInit.FOSSIL_OXYDACTYLUS, 1),
+                new ItemStack(BlockInit.FOSSIL_GASTORNIS, 1),
                 new ItemStack(BlockInit.FOSSIL_DORUDON, 1),
                 new ItemStack(BlockInit.FOSSIL_KUTCHICETUS, 1),
                 new ItemStack(BlockInit.FOSSIL_PROTOCERAS, 1)
@@ -834,7 +837,9 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_SYNTHETOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_DECENNATHERIUM, 1),
                 new ItemStack(BlockInit.FOSSIL_OXYDACTYLUS, 1),
+                new ItemStack(BlockInit.FOSSIL_SINCLAIROMERYX, 1),
                 new ItemStack(BlockInit.FOSSIL_KUBANOCHOERUS, 1),
+                new ItemStack(BlockInit.FOSSIL_MENOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_HIPPIDION, 1),
                 new ItemStack(BlockInit.FOSSIL_DINOCROCUTA, 1),
                 new ItemStack(BlockInit.FOSSIL_PROTOCERAS, 1),

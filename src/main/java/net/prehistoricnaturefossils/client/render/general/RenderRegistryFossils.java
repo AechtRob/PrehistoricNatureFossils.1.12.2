@@ -503,6 +503,10 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSkorpiovenator.class, new RenderFossilSkorpiovenator());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTethyshadros.class, new RenderFossilTethyshadros());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSpinosaurus.class, new RenderFossilSpinosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilNasutoceratops.class, new RenderFossilNasutoceratops());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMenoceras.class, new RenderFossilMenoceras());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilGastornis.class, new RenderFossilGastornis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSinclairomeryx.class, new RenderFossilSinclairomeryx());
 
         
         //Other tile entity renderers:

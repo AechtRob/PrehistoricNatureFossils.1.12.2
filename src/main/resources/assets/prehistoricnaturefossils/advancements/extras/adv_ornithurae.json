@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_placeholder"
+		  },
+		"title": {
+			"translate": "advancements.ornithurae.title"
+		},
+		"description": {
+			"translate": "advancements.ornithurae.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_avialae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
