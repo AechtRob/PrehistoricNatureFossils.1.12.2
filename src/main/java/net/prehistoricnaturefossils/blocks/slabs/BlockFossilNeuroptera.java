@@ -38,7 +38,7 @@ public class BlockFossilNeuroptera extends BlockSlabBase implements IArchiveInve
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_neuroptera";
+        return "mobdnaPNlepidodendron:prehistoric_flora_lacewing@bellinympha";
     }
 
     @Nullable
