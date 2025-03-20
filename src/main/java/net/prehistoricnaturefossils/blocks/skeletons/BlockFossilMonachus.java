@@ -1,6 +1,6 @@
-package net.prehistoricnaturefossils.blocks.slabs;
+package net.prehistoricnaturefossils.blocks.skeletons;
 
-import net.lepidodendron.block.base.IArchiveInvertebrate;
+import net.lepidodendron.block.base.IArchiveVertebrate;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
@@ -13,20 +13,20 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockInit;
-import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
+import net.prehistoricnaturefossils.blocks.base.BlockSkeletonBase;
 import net.prehistoricnaturefossils.items.ItemInit;
-import net.prehistoricnaturefossils.tile.TileEntityFossilNeuroptera;
+import net.prehistoricnaturefossils.tile.TileEntityFossilMonachus;
 import net.prehistoricnaturefossils.triggers.CustomTrigger;
 import net.prehistoricnaturefossils.triggers.ModTriggers;
 
 import javax.annotation.Nullable;
 
-public class BlockFossilNeuroptera extends BlockSlabBase implements IArchiveInvertebrate {
+public class BlockFossilMonachus extends BlockSkeletonBase implements IArchiveVertebrate {
 
-    public BlockFossilNeuroptera() {
-        setRegistryName(PrehistoricNatureFossils.MODID, "skeleton_neuroptera");
-        setTranslationKey("pf_skeleton_neuroptera");
-        GameRegistry.registerTileEntity(TileEntityFossilNeuroptera.class, PrehistoricNatureFossils.MODID + ":tileentityskeleton_neuroptera");
+    public BlockFossilMonachus() {
+        setRegistryName(PrehistoricNatureFossils.MODID, "skeleton_monachus");
+        setTranslationKey("pf_skeleton_monachus");
+        GameRegistry.registerTileEntity(TileEntityFossilMonachus.class, PrehistoricNatureFossils.MODID + ":tileentityskeleton_monachus");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this) {
             @Override
@@ -35,27 +35,28 @@ public class BlockFossilNeuroptera extends BlockSlabBase implements IArchiveInve
             }
         }.setRegistryName(this.getRegistryName()));
     }
-    //@Nullable
-    //@Override
-    //public String getDNACompat() {
-    //   return "mobdnaPNlepidodendron:prehistoric_flora_neuroptera";
-    //}
+
+    @Nullable
+    @Override
+    public String getDNACompat() {
+        return "mobdnaPNlepidodendron:prehistoric_flora_monachus";
+    }
 
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilNeuroptera();
+        return new TileEntityFossilMonachus();
     }
 
     @Override
     public int stages() {
-        return 1;
+        return 10;
     }
 
     @Nullable
     @Override
     public CustomTrigger getModTrigger() {
-        return ModTriggers.NEUROPTERA_COMPLETE;
+        return ModTriggers.MONACHUS_COMPLETE;
     }
 
 }

@@ -179,6 +179,8 @@ public class RegistrationHandler {
             "skeleton_menoceras",
             "skeleton_gastornis",
             "skeleton_sinclairomeryx",
+            "skeleton_pantheratigris",
+            "skeleton_monachus",
             "skull_acrocanthosaurus",
             "skeleton_diplocaulusminimus"
     };

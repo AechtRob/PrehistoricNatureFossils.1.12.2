@@ -421,6 +421,8 @@ public class ModTriggers
     public static final CustomTrigger MENOCERAS_COMPLETE = new CustomTrigger("adv_menoceras");
     public static final CustomTrigger GASTORNIS_COMPLETE = new CustomTrigger("adv_gastornis");
     public static final CustomTrigger SINCLAIROMERYX_COMPLETE = new CustomTrigger("adv_sinclairomeryx");
+    public static final CustomTrigger PANTHERATIGRIS_COMPLETE = new CustomTrigger("adv_pantheratigris");
+    public static final CustomTrigger MONACHUS_COMPLETE = new CustomTrigger("adv_monachus");
 
 
     public static final CustomTrigger AETOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_aetosaurs");
@@ -707,6 +709,8 @@ public class ModTriggers
             MENOCERAS_COMPLETE,
             GASTORNIS_COMPLETE,
             SINCLAIROMERYX_COMPLETE,
+            PANTHERATIGRIS_COMPLETE,
+            MONACHUS_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,

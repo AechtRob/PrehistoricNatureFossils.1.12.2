@@ -855,6 +855,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_RANGIFER, 1),
                 new ItemStack(BlockInit.FOSSIL_THYLACOLEO, 1),
                 new ItemStack(BlockInit.FOSSIL_DAMADAMA, 1),
+                new ItemStack(BlockInit.FOSSIL_PANTHERATIGRIS, 1),
+                new ItemStack(BlockInit.FOSSIL_MONACHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_SIMOSTHENURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_EREMOTHERIUM, 1)
         };

@@ -663,6 +663,10 @@ advancements.gastornis.title=Gaston Planté's Bird
 advancements.gastornis.description=Complete a Gastornis skeleton
 advancements.sinclairomeryx.title=W.J. Sinclair's Ruminant
 advancements.sinclairomeryx.description=Complete a Sinclairomeryx skeleton
+advancements.pantheratigris.title=Tiger
+advancements.pantheratigris.description=Complete a Panthera tigris skeleton
+advancements.monachus.title=Monk Seal
+advancements.monachus.description=Complete a Monachus skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -960,6 +964,10 @@ advancements.odontoanserae.title=Waterfowl and Waterfoe
 advancements.odontoanserae.description=Odontoanserae (coming soon)
 advancements.anserimorphae.title=Demon Ducks
 advancements.anserimorphae.description=Anserimorphae (coming soon)
+advancements.felidae.title=Puss in boots
+advancements.felidae.description=Felidae (coming soon)
+advancements.pinnipedia.title=Quality Seal
+advancements.pinnipedia.description=Pinnipedia (coming soon)
 
 enchantment.pf_discerning_collector=Discerning Collector
 
@@ -1460,6 +1468,8 @@ tile.pf_skeleton_nasutoceratops.name=§9Nasutoceratops Displayable Fossil
 tile.pf_skeleton_menoceras.name=§2Menoceras Displayable Fossil
 tile.pf_skeleton_gastornis.name=§9Gastornis Displayable Fossil
 tile.pf_skeleton_sinclairomeryx.name=§9Sinclairomeryx Displayable Fossil
+tile.pf_skeleton_pantheratigris.name=§6Panthera tigris Displayable Fossil
+tile.pf_skeleton_monachus.name=§9Monachus Displayable Fossil
 
 
 tile.pf_skull_acrocanthosaurus.name=Placeable Acrocanthosaurus Skull

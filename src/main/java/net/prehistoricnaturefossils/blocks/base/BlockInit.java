@@ -517,6 +517,8 @@ public class BlockInit {
     public static final Block FOSSIL_MENOCERAS    = new BlockFossilMenoceras();
     public static final Block FOSSIL_GASTORNIS    = new BlockFossilGastornis();
     public static final Block FOSSIL_SINCLAIROMERYX    = new BlockFossilSinclairomeryx();
+    public static final Block FOSSIL_PANTHERATIGRIS    = new BlockFossilPantheratigris();
+    public static final Block FOSSIL_MONACHUS    = new BlockFossilMonachus();
 
 
     //Skulls and so on:

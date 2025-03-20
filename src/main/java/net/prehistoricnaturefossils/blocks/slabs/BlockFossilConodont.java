@@ -35,11 +35,11 @@ public class BlockFossilConodont extends BlockSlabBase implements IArchiveVerteb
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_conodont";
-    }
+    //@Nullable
+    //@Override
+    //public String getDNACompat() {
+    //    return "mobdnaPNlepidodendron:prehistoric_flora_conodont";
+    //}
 
     @Nullable
     @Override

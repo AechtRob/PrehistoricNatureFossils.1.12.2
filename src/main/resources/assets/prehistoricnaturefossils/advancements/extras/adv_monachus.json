@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_monachus"
+		  },
+		"title": {
+			"translate": "advancements.monachus.title"
+		},
+		"description": {
+			"translate": "advancements.monachus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_pinnipedia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_monachus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

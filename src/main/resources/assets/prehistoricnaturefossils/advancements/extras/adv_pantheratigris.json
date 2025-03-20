@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_pantheratigris"
+		  },
+		"title": {
+			"translate": "advancements.pantheratigris.title"
+		},
+		"description": {
+			"translate": "advancements.pantheratigris.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_felidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_pantheratigris"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

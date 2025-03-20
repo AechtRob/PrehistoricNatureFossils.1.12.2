@@ -1,0 +1,21 @@
+{
+		"display": {
+			"icon": {
+				"item": "prehistoricnaturefossils:skeleton_placeholder"
+			},
+			"title": {
+				"translate": "advancements.felidae.title"
+			},
+			"description": {
+				"translate": "advancements.felidae.description"
+			},
+			"show_toast": false,
+			"announce_to_chat": false
+		},
+	"parent": "prehistoricnaturefossils:extras/adv_feliformia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

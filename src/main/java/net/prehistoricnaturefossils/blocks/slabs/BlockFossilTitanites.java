@@ -35,11 +35,11 @@ public class BlockFossilTitanites extends BlockSlabBase implements IArchiveInver
             }
         }.setRegistryName(this.getRegistryName()));
     }
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_titanites";
-    }
+    //@Nullable
+    //@Override
+    //public String getDNACompat() {
+    //   return "mobdnaPNlepidodendron:prehistoric_flora_titanites";
+    //}
 
     @Nullable
     @Override
