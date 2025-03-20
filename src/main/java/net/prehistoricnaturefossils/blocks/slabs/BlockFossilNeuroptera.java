@@ -35,11 +35,12 @@ public class BlockFossilNeuroptera extends BlockSlabBase implements IArchiveInve
             }
         }.setRegistryName(this.getRegistryName()));
     }
-    //@Nullable
-    //@Override
-    //public String getDNACompat() {
-    //   return "mobdnaPNlepidodendron:prehistoric_flora_neuroptera";
-    //}
+
+    @Nullable
+    @Override
+    public String getDNACompat() {
+       return "mobdnaPNlepidodendron:prehistoric_flora_lacewing@bellinympha";
+    }
 
     @Nullable
     @Override
