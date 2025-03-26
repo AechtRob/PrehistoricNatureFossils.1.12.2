@@ -16,7 +16,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.12.2-6.0-ALPHA'
+version = '1.12.2-6.01'
 group = 'com.github.aechtrob.prehistoricnaturefossils' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'prehistoricnaturefossils'
 
@@ -80,7 +80,7 @@ dependencies {
 
     //compile "net.ilexiconn:llibrary:1.7.19-1.12.2"
     //compile "vazkii.patchouli:Patchouli:1.0-21.4"
-    compile files('libs/lepidodendron-1.12.2-62.0-ALPHA.jar')
+    compile files('libs/lepidodendron-1.12.2-62.01.jar')
     // For more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
