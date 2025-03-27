@@ -23,7 +23,7 @@ public class RegistrationHandler {
     public RegistrationHandler() {
     }
 
-    public static final boolean doDevOnly = false;
+    public static final boolean doDevOnly = true;
 
     public static final String[] devOnly = new String[]{
             "skeleton_stokesosaurus",

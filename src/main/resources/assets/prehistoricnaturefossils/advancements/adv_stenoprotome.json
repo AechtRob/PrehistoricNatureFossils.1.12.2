@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_abyssosaurus"
+		  },
+		"title": {
+			"translate": "advancements.abyssosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.abyssosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_plesiosauroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_abyssosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

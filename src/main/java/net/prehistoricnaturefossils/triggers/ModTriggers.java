@@ -12,6 +12,9 @@ public class ModTriggers
 {
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
+    public static final CustomTrigger STENOPROTOME_COMPLETE = new CustomTrigger("adv_stenoprotome");
+    public static final CustomTrigger GIRAFFATITANSLAB_COMPLETE = new CustomTrigger("adv_giraffatitanslab");
+    public static final CustomTrigger COMPSOGNATHUSSLAB_COMPLETE = new CustomTrigger("adv_compsognathusslab");
     public static final CustomTrigger TREMAGLASPIS_COMPLETE = new CustomTrigger("adv_tremaglaspis");
     public static final CustomTrigger PRISCOMYZON_COMPLETE = new CustomTrigger("adv_priscomyzon");
     public static final CustomTrigger CAMANCHIA_COMPLETE = new CustomTrigger("adv_camanchia");
@@ -457,6 +460,8 @@ public class ModTriggers
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
+            COMPSOGNATHUSSLAB_COMPLETE,
+            GIRAFFATITANSLAB_COMPLETE,
             TREMAGLASPIS_COMPLETE,
             PRISCOMYZON_COMPLETE,
             CAMANCHIA_COMPLETE,

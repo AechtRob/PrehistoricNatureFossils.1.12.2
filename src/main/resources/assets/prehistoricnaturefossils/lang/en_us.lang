@@ -1,6 +1,12 @@
 itemGroup.prehistoricnaturefossils=Prehistoric Nature Fossils
 advancements.aeger.title=Aeger
 advancements.aeger.description=Complete an Aeger slab
+advancements.giraffatitanslab.title=Giraffatitan
+advancements.giraffatitanslab.description=Complete an Giraffatitan slab
+advancements.stenoprotome.title=Stenoprotome
+advancements.Stenoprotome.description=Complete an Stenoprotome slab
+advancements.comspognathusslab.title=Compsognathus
+advancements.compsognathusslab.description=Complete an Compsognathus slab
 advancements.anteosaurus.title=Antaeus Lizard
 advancements.anteosaurus.description=Complete an Anteosaurus skeleton
 advancements.arizonasaurus.title=Arizona's Lizard
@@ -972,6 +978,9 @@ advancements.pinnipedia.description=Pinnipedia (coming soon)
 enchantment.pf_discerning_collector=Discerning Collector
 
 tile.pf_skeleton_mixopterus.name=Mixopterus Fossil Slab
+tile.pf_skeleton_stenoprotome.name=Stenoprotome Fossil Slab
+tile.pf_skeleton_giraffatitanslab.name=Giraffatitan Fossil Slab
+tile.pf_skeleton_compsognathusslab.name=Compsognathus Fossil Slab
 tile.pf_skeleton_falcatus.name=Falcatus Fossil Slab
 tile.pf_skeleton_akmonistion.name=Akmonistion Fossil Slab
 tile.pf_skeleton_coccosteus.name=Coccosteus Fossil Slab

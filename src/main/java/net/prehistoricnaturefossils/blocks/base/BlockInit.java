@@ -35,6 +35,7 @@ public class BlockInit {
     public static final Block FOSSIL_BUNGARTIUS = new BlockFossilBungartius();
     public static final Block FOSSIL_CAVIRAMUS = new BlockFossilCaviramus();
     public static final Block FOSSIL_COCCOSTEUS = new BlockFossilCoccosteus();
+    public static final Block FOSSIL_COMPSOGNATHUSSLAB = new BlockFossilCompsognathusSlab();
     public static final Block FOSSIL_COTYLORHYNCHUS = new BlockFossilCotylorhynchus();
     public static final Block FOSSIL_CYAMODUS = new BlockFossilCyamodus();
     public static final Block FOSSIL_CYMBOSPONDYLUS = new BlockFossilCymbospondylus();
@@ -49,6 +50,7 @@ public class BlockInit {
     public static final Block FOSSIL_ESTEMMENOSUCHUS = new BlockFossilEstemmenosuchus();
     public static final Block FOSSIL_FALCATUS = new BlockFossilFalcatus();
     public static final Block FOSSIL_GERROTHORAX = new BlockFossilGerrothorax();
+    public static final Block FOSSIL_GIRAFFATITANSLAB = new BlockFossilGiraffatitanSlab();
     public static final Block FOSSIL_HENODUS = new BlockFossilHenodus();
     public static final Block FOSSIL_KEICHOUSAURUS = new BlockFossilKeichousaurus();
     public static final Block FOSSIL_KENTROSAURUS = new BlockFossilKentrosaurus();
@@ -73,6 +75,7 @@ public class BlockInit {
     public static final Block FOSSIL_SCUTOSAURUS = new BlockFossilScutosaurus();
     public static final Block FOSSIL_SHRINGASAURUS = new BlockFossilShringasaurus();
     public static final Block FOSSIL_SILESAURUS = new BlockFossilSilesaurus();
+    public static final Block FOSSIL_STENOPROTOME = new BlockFossilStenoprotome();
     public static final Block FOSSIL_SUMINIA = new BlockFossilSuminia();
     public static final Block FOSSIL_TANYSTROPHEUS = new BlockFossilTanystropheus();
     public static final Block FOSSIL_THECODONTOSAURUS = new BlockFossilThecodontosaurus();
