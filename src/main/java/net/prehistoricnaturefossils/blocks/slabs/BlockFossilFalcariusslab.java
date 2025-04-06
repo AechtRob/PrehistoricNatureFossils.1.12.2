@@ -15,18 +15,18 @@ import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockInit;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
 import net.prehistoricnaturefossils.items.ItemInit;
-import net.prehistoricnaturefossils.tile.TileEntityFossilStenoprotome;
+import net.prehistoricnaturefossils.tile.TileEntityFossilFalcariusslab;
 import net.prehistoricnaturefossils.triggers.CustomTrigger;
 import net.prehistoricnaturefossils.triggers.ModTriggers;
 
 import javax.annotation.Nullable;
 
-public class BlockFossilStenoprotome extends BlockSlabBase implements IArchiveInvertebrate {
+public class BlockFossilFalcariusslab extends BlockSlabBase implements IArchiveInvertebrate {
 
-    public BlockFossilStenoprotome() {
-        setRegistryName(PrehistoricNatureFossils.MODID, "skeleton_stenoprotome");
-        setTranslationKey("pf_skeleton_stenoprotome");
-        GameRegistry.registerTileEntity(TileEntityFossilStenoprotome.class, PrehistoricNatureFossils.MODID + ":tileentityskeleton_stenoprotome");
+    public BlockFossilFalcariusslab() {
+        setRegistryName(PrehistoricNatureFossils.MODID, "skeleton_falcariusslab");
+        setTranslationKey("pf_skeleton_falcariusslab");
+        GameRegistry.registerTileEntity(TileEntityFossilFalcariusslab.class, PrehistoricNatureFossils.MODID + ":tileentityskeleton_falcariusslab");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this) {
             @Override
@@ -39,13 +39,13 @@ public class BlockFossilStenoprotome extends BlockSlabBase implements IArchiveIn
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_stenoprotome";
+        return "mobdnaPNlepidodendron:prehistoric_flora_falcariusslab";
     }
 
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilStenoprotome();
+        return new TileEntityFossilFalcariusslab();
     }
 
     @Override
@@ -56,7 +56,7 @@ public class BlockFossilStenoprotome extends BlockSlabBase implements IArchiveIn
     @Nullable
     @Override
     public CustomTrigger getModTrigger() {
-        return ModTriggers.STENOPROTOME_COMPLETE;
+        return ModTriggers.FALCARIUSSLAB_COMPLETE;
     }
 
 }

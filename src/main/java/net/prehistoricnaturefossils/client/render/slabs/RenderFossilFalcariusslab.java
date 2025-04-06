@@ -9,21 +9,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonStenoprotome;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonFalcariusslab;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntityFossilStenoprotome;
+import net.prehistoricnaturefossils.tile.TileEntityFossilFalcariusslab;
 
-public class RenderFossilStenoprotome extends TileEntitySpecialRenderer<TileEntityFossilStenoprotome> {
+public class RenderFossilFalcariusslab extends TileEntitySpecialRenderer<TileEntityFossilFalcariusslab> {
 
-    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/stenoprotome_stage1.png");
-    private final ModelSkeletonStenoprotome modelSkeleton;
+    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/falcariusslab_stage1.png");
+    private final ModelSkeletonFalcariusslab modelSkeleton;
 
-    public RenderFossilStenoprotome() {
-        this.modelSkeleton = new ModelSkeletonStenoprotome();
+    public RenderFossilFalcariusslab() {
+        this.modelSkeleton = new ModelSkeletonFalcariusslab();
     }
 
     @Override
-    public void render(TileEntityFossilStenoprotome entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityFossilFalcariusslab entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
@@ -44,10 +44,10 @@ public class RenderFossilStenoprotome extends TileEntitySpecialRenderer<TileEnti
         }
 
         GlStateManager.enableAlpha();
-        ModelSkeletonStenoprotome modelSkeleton = this.modelSkeleton;
-        double scale = 0.16F * RenderDisplayWallMount.scaler;
+        ModelSkeletonFalcariusslab modelSkeleton = this.modelSkeleton;
+        double scale = 1F * RenderDisplayWallMount.scaler;
 
-        double offset = 0.222;
+        double offset = 1.445;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

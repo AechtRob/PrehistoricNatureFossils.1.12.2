@@ -1095,6 +1095,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_TURBOSCINETES, 1),
                 new ItemStack(BlockInit.FOSSIL_ARCHAEOPTERYX, 1),
                 new ItemStack(BlockInit.FOSSIL_GIRAFFATITANSLAB, 1),
+                new ItemStack(BlockInit.FOSSIL_CERATOSAURUSSLAB, 1),
                 new ItemStack(BlockInit.FOSSIL_COMPSOGNATHUSSLAB, 1)
         };
         return itemStack;
@@ -1106,6 +1107,11 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_MECOCHIRUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TROPAEUM, 1),
                 new ItemStack(BlockInit.FOSSIL_STENOPROTOME, 1),
+                new ItemStack(BlockInit.FOSSIL_RHYNCHODERCETIS, 1),
+                new ItemStack(BlockInit.FOSSIL_MARALDICHTHYS, 1),
+                new ItemStack(BlockInit.FOSSIL_PRIONOLEPIS, 1),
+                new ItemStack(BlockInit.FOSSIL_SIGMAPYCNODUS, 1),
+                new ItemStack(BlockInit.FOSSIL_FALCARIUSSLAB, 1),
                 new ItemStack(BlockInit.FOSSIL_ERYMA, 1)
         };
         return itemStack;

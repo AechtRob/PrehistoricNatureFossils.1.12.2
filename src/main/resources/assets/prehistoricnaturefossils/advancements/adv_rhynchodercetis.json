@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_rhomaleosaurus"
+		  },
+		"title": {
+			"translate": "advancements.rhomaleosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.rhomaleosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_pliosauroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_rhomaleosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

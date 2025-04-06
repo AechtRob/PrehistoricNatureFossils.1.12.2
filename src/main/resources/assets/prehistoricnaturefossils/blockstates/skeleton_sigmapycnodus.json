@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "normal": {
+      "model": "prehistoricnaturefossils:slab_general"
+    },
+    "facing=north": {
+      "model": "prehistoricnaturefossils:slab_general"
+    },
+    "facing=east": {
+      "model": "prehistoricnaturefossils:slab_general"
+    },
+    "facing=south": {
+      "model": "prehistoricnaturefossils:slab_general"
+    },
+    "facing=west": {
+      "model": "prehistoricnaturefossils:slab_general"
+    },
+    "facing=up": {
+      "model": "prehistoricnaturefossils:slab_general"
+    },
+    "facing=down": {
+      "model": "prehistoricnaturefossils:slab_general"
+    }
+  }
+}
