@@ -26,6 +26,11 @@ public class BlockInit {
     public static final List<Block> BLOCKS = new ArrayList<Block>();
 
     public static final Block FOSSIL_AKMONISTION = new BlockFossilAkmonistion();
+    public static final Block FOSSIL_BUITRERAPTOR = new BlockFossilBuitreraptor();
+    public static final Block FOSSIL_LIVYATAN = new BlockFossilLivyatan();
+    public static final Block FOSSIL_JINYUNPELTASLAB = new BlockFossilJinyunpeltaslab();
+    public static final Block FOSSIL_PLATECARPUS = new BlockFossilPlatecarpus();
+    public static final Block FOSSIL_LITOCRANIUS = new BlockFossilLitocranius();
     public static final Block FOSSIL_FALCARIUSSLAB = new BlockFossilFalcariusslab();
     public static final Block FOSSIL_SIGMAPYCNODUS = new BlockFossilSigmapycnodus();
     public static final Block FOSSIL_PRIONOLEPIS = new BlockFossilPrionolepis();

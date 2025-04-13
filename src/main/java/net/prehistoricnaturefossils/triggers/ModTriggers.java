@@ -12,15 +12,6 @@ public class ModTriggers
 {
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
-    public static final CustomTrigger FALCARIUSSLAB_COMPLETE = new CustomTrigger("adv_falcariusslab");
-    public static final CustomTrigger SIGMAPYCNODUS_COMPLETE = new CustomTrigger("adv_sygmapycnodus");
-    public static final CustomTrigger STENOPROTOME_COMPLETE = new CustomTrigger("adv_stenoprotome");
-    public static final CustomTrigger PRIONOLEPIS_COMPLETE = new CustomTrigger("adv_prionolepis");
-    public static final CustomTrigger MARALDICHTHYS_COMPLETE = new CustomTrigger("adv_maraldichthys");
-    public static final CustomTrigger RHYNCHODERCETIS_COMPLETE = new CustomTrigger("adv_rhynchodercetis");
-    public static final CustomTrigger GIRAFFATITANSLAB_COMPLETE = new CustomTrigger("adv_giraffatitanslab");
-    public static final CustomTrigger CERATOSAURUSSLAB_COMPLETE = new CustomTrigger("adv_ceratosaurusslab");
-    public static final CustomTrigger COMPSOGNATHUSSLAB_COMPLETE = new CustomTrigger("adv_compsognathusslab");
     public static final CustomTrigger TREMAGLASPIS_COMPLETE = new CustomTrigger("adv_tremaglaspis");
     public static final CustomTrigger PRISCOMYZON_COMPLETE = new CustomTrigger("adv_priscomyzon");
     public static final CustomTrigger CAMANCHIA_COMPLETE = new CustomTrigger("adv_camanchia");
@@ -432,6 +423,20 @@ public class ModTriggers
     public static final CustomTrigger SINCLAIROMERYX_COMPLETE = new CustomTrigger("adv_sinclairomeryx");
     public static final CustomTrigger PANTHERATIGRIS_COMPLETE = new CustomTrigger("adv_pantheratigris");
     public static final CustomTrigger MONACHUS_COMPLETE = new CustomTrigger("adv_monachus");
+    public static final CustomTrigger JINYUNPELTASLAB_COMPLETE = new CustomTrigger("adv_jinyunpeltaslab");
+    public static final CustomTrigger LITOCRANIUS_COMPLETE = new CustomTrigger("adv_litocranius");
+    public static final CustomTrigger PLATECARPUS_COMPLETE = new CustomTrigger("adv_platecarpus");
+    public static final CustomTrigger FALCARIUSSLAB_COMPLETE = new CustomTrigger("adv_falcariusslab");
+    public static final CustomTrigger SIGMAPYCNODUS_COMPLETE = new CustomTrigger("adv_sygmapycnodus");
+    public static final CustomTrigger STENOPROTOME_COMPLETE = new CustomTrigger("adv_stenoprotome");
+    public static final CustomTrigger PRIONOLEPIS_COMPLETE = new CustomTrigger("adv_prionolepis");
+    public static final CustomTrigger MARALDICHTHYS_COMPLETE = new CustomTrigger("adv_maraldichthys");
+    public static final CustomTrigger RHYNCHODERCETIS_COMPLETE = new CustomTrigger("adv_rhynchodercetis");
+    public static final CustomTrigger GIRAFFATITANSLAB_COMPLETE = new CustomTrigger("adv_giraffatitanslab");
+    public static final CustomTrigger CERATOSAURUSSLAB_COMPLETE = new CustomTrigger("adv_ceratosaurusslab");
+    public static final CustomTrigger COMPSOGNATHUSSLAB_COMPLETE = new CustomTrigger("adv_compsognathusslab");
+    public static final CustomTrigger BUITRERAPTOR_COMPLETE = new CustomTrigger("adv_buitreraptor");
+    public static final CustomTrigger LIVYATAN_COMPLETE = new CustomTrigger("adv_livyatan");
 
 
     public static final CustomTrigger AETOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_aetosaurs");
@@ -466,6 +471,11 @@ public class ModTriggers
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
+            BUITRERAPTOR_COMPLETE,
+            LIVYATAN_COMPLETE,
+            JINYUNPELTASLAB_COMPLETE,
+            PLATECARPUS_COMPLETE,
+            LITOCRANIUS_COMPLETE,
             FALCARIUSSLAB_COMPLETE,
             SIGMAPYCNODUS_COMPLETE,
             PRIONOLEPIS_COMPLETE,

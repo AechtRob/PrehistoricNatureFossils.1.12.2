@@ -180,9 +180,14 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMaraldichthys.class, new RenderFossilMaraldichthys());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSigmapycnodus.class, new RenderFossilSigmapycnodus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilFalcariusslab.class, new RenderFossilFalcariusslab());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilJinyunpeltaslab.class, new RenderFossilJinyunpeltaslab());
 
 
         //Skeleton Mounts:
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLitocranius.class, new RenderFossilLitocranius());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLivyatan.class, new RenderFossilLivyatan());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBuitreraptor.class, new RenderFossilBuitreraptor());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPlatecarpus.class, new RenderFossilPlatecarpus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAcanthostega.class, new RenderFossilAcanthostega());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAcanthostomatops.class, new RenderFossilAcanthostomatops());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAdeopapposaurus.class, new RenderFossilAdeopapposaurus());
