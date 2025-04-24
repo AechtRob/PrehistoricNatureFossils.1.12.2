@@ -515,7 +515,7 @@ advancements.teraterpeton.title=Wonderous Reptile
 advancements.teraterpeton.description=Complete a Teraterpeton skeleton
 advancements.trilophosaurus.title=Three Crested Lizard
 advancements.trilophosaurus.description=Complete a Trilophosaurus skeleton
-advancements.nigerpeton.title=Nigerian Reptile
+advancements.nigerpeton.title=
 advancements.nigerpeton.description=Complete a Nigerpeton skeleton
 advancements.giraffatitan.title=Titanic Giraffe
 advancements.giraffatitan.description=Complete a Giraffatitan skeleton
@@ -667,6 +667,10 @@ advancements.pantheratigris.title=Tiger
 advancements.pantheratigris.description=Complete a Panthera tigris skeleton
 advancements.monachus.title=Monk Seal
 advancements.monachus.description=Complete a Monachus skeleton
+advancements.megacerops.title=Large Horned Face
+advancements.megacerops.description=Complete a Megacerops skeleton
+advancements.kamuysaurus.title=Deity Lizard
+advancements.kamuysaurus.description=Complete a Kamuysaurus skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -760,7 +764,7 @@ advancements.archosauriformes.title=Narrow skulls
 advancements.archosauriformes.description=Erythrosuchids and Proterosuchids
 advancements.tanysauria.title=Plesiosaur 1.0
 advancements.tanysauria.description=Tanysaurians
-advancements.crocopoda.title=Thats No Crocodile!
+advancements.crocopoda.title=That's No Crocodile!
 advancements.crocopoda.description=Crocopods
 advancements.phytosauria.title=Croc mimics
 advancements.phytosauria.description=Phytosaurs
@@ -968,6 +972,10 @@ advancements.felidae.title=Puss in boots
 advancements.felidae.description=Felidae (coming soon)
 advancements.pinnipedia.title=Quality Seal
 advancements.pinnipedia.description=Pinnipedia (coming soon)
+advancements.brontotheriidae.title=Tuning Forks
+advancements.brontotheriidae.description=Brontotheriidae (coming soon)
+advancements.psittacosauri.title=Taco Tuesday
+advancements.psittacosauri.description=Psittacosaurus species
 
 enchantment.pf_discerning_collector=Discerning Collector
 
@@ -1470,6 +1478,8 @@ tile.pf_skeleton_gastornis.name=§9Gastornis Displayable Fossil
 tile.pf_skeleton_sinclairomeryx.name=§9Sinclairomeryx Displayable Fossil
 tile.pf_skeleton_pantheratigris.name=§6Panthera tigris Displayable Fossil
 tile.pf_skeleton_monachus.name=§9Monachus Displayable Fossil
+tile.pf_skeleton_megacerops.name=§6Megacerops Displayable Fossil
+tile.pf_skeleton_kamuysaurus.name=§5Kamuysaurus Displayable Fossil
 
 
 tile.pf_skull_acrocanthosaurus.name=Placeable Acrocanthosaurus Skull

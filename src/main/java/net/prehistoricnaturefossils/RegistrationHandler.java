@@ -23,7 +23,7 @@ public class RegistrationHandler {
     public RegistrationHandler() {
     }
 
-    public static final boolean doDevOnly = false;
+    public static final boolean doDevOnly = true;
 
     public static final String[] devOnly = new String[]{
             "skeleton_stokesosaurus",
@@ -181,6 +181,8 @@ public class RegistrationHandler {
             "skeleton_sinclairomeryx",
             "skeleton_pantheratigris",
             "skeleton_monachus",
+            "skeleton_megacerops",
+            "skeleton_kamuysaurus",
             "skull_acrocanthosaurus",
             "skeleton_diplocaulusminimus"
     };
