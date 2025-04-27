@@ -39,7 +39,7 @@ public class BlockFossilCompsognathusSlab extends BlockSlabBase implements IArch
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_compsognathusslab";
+        return "mobdnaPNlepidodendron:prehistoric_flora_compsognathus";
     }
 
     @Nullable

@@ -815,6 +815,9 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_EOCARCHARIA, 1),
                 new ItemStack(BlockInit.FOSSIL_PLATECARPUS, 1),
                 new ItemStack(BlockInit.FOSSIL_BUITRERAPTOR, 1),
+                new ItemStack(BlockInit.FOSSIL_OVIRAPTOR, 1),
+                new ItemStack(BlockInit.FOSSIL_THERIZINOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_RAJASAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_OURANOSAURUS, 1)
         };
         return itemStack;
@@ -846,6 +849,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_DINOCROCUTA, 1),
                 new ItemStack(BlockInit.FOSSIL_PROTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_LIVYATAN, 1),
+                new ItemStack(BlockInit.FOSSIL_THEROPITHECUS, 1),
                 new ItemStack(BlockInit.FOSSIL_THYLACOLEO, 1)
         };
         return itemStack;
@@ -862,6 +866,9 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_MONACHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_SIMOSTHENURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LITOCRANIUS, 1),
+                new ItemStack(BlockInit.FOSSIL_THEROPITHECUS, 1),
+                new ItemStack(BlockInit.FOSSIL_DODO, 1),
+                new ItemStack(BlockInit.FOSSIL_SYLVIORNIS, 1),
                 new ItemStack(BlockInit.FOSSIL_EREMOTHERIUM, 1)
         };
         return itemStack;

@@ -39,7 +39,7 @@ public class BlockFossilJinyunpeltaslab extends BlockSlabBase implements IArchiv
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_jinyunpeltaslab";
+        return "mobdnaPNlepidodendron:prehistoric_flora_jinyunpelta";
     }
 
     @Nullable

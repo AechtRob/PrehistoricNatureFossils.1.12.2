@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dodo"
+		  },
+		"title": {
+			"translate": "advancements.dodo.title"
+		},
+		"description": {
+			"translate": "advancements.dodo.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_megaraptora",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dodo"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

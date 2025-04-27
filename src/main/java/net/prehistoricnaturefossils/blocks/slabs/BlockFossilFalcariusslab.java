@@ -39,7 +39,7 @@ public class BlockFossilFalcariusslab extends BlockSlabBase implements IArchiveI
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_falcariusslab";
+        return "mobdnaPNlepidodendron:prehistoric_flora_falcarius";
     }
 
     @Nullable

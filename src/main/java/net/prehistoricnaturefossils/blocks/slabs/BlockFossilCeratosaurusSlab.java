@@ -39,7 +39,7 @@ public class BlockFossilCeratosaurusSlab extends BlockSlabBase implements IArchi
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_ceratosaurusslab";
+        return "mobdnaPNlepidodendron:prehistoric_flora_ceratosaurus";
     }
 
     @Nullable

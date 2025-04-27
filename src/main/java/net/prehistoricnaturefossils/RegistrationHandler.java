@@ -185,6 +185,12 @@ public class RegistrationHandler {
             "skeleton_litocranius",
             "skeleton_livyatan",
             "skeleton_buitreraptor",
+            "skeleton_oviraptor",
+            "skeleton_theropithecus",
+            "skeleton_dodo",
+            "skeleton_therizinosaurus",
+            "skeleton_sylviornis",
+            "skeleton_rajasaurus",
             "skull_acrocanthosaurus",
             "skeleton_diplocaulusminimus"
     };

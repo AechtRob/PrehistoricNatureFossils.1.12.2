@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_theropithecus"
+		  },
+		"title": {
+			"translate": "advancements.theropithecus.title"
+		},
+		"description": {
+			"translate": "advancements.theropithecus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_primatomorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_theropithecus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

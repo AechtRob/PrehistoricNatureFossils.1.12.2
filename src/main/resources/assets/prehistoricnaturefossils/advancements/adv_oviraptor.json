@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_oviraptor"
+		  },
+		"title": {
+			"translate": "advancements.oviraptor.title"
+		},
+		"description": {
+			"translate": "advancements.oviraptor.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_oviraptorosaurs",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_oviraptor"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

@@ -38,7 +38,7 @@ public class BlockFossilGiraffatitanSlab extends BlockSlabBase implements IArchi
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_giraffatitanslab";
+        return "mobdnaPNlepidodendron:prehistoric_flora_giraffatitan";
     }
 
     @Nullable
