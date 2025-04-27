@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_rajasaurus"
+		  },
+		"title": {
+			"translate": "advancements.rajasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.rajasaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_abelisauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_rajasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

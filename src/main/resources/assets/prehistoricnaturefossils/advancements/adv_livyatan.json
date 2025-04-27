@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_livyatan"
+		  },
+		"title": {
+			"translate": "advancements.livyatan.title"
+		},
+		"description": {
+			"translate": "advancements.livyatan.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:adv_physeteroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_livyatan"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

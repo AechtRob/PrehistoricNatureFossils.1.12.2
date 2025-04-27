@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_therizinosaurus"
+		  },
+		"title": {
+			"translate": "advancements.therizinosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.therizinosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:adv_therizinosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_therizinosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

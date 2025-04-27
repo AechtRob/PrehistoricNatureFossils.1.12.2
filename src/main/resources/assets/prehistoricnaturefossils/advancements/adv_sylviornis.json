@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sylviornis"
+		  },
+		"title": {
+			"translate": "advancements.sylviornis.title"
+		},
+		"description": {
+			"translate": "advancements.sylviornis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_pangalliformes",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sylviornis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

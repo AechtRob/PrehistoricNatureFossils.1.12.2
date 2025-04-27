@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_litocranius"
+		  },
+		"title": {
+			"translate": "advancements.litocranius.title"
+		},
+		"description": {
+			"translate": "advancements.litocranius.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_antilopinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_litocranius"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

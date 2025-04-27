@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_platecarpus"
+		  },
+		"title": {
+			"translate": "advancements.platecarpus.title"
+		},
+		"description": {
+			"translate": "advancements.platecarpus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_mosasauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_platecarpus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

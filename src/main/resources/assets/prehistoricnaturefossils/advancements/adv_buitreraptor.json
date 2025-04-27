@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_buitreraptor"
+		  },
+		"title": {
+			"translate": "advancements.buitreraptor.title"
+		},
+		"description": {
+			"translate": "advancements.buitreraptor.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_Dromaeosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_buitreraptor"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
