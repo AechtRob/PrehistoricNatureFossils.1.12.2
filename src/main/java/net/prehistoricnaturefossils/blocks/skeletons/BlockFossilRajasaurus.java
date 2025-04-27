@@ -35,11 +35,7 @@ public class BlockFossilRajasaurus extends BlockSkeletonBase implements IArchive
             }
         }.setRegistryName(this.getRegistryName()));
     }
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_rajasaurus";
-    }
+
 
     @Nullable
     @Override

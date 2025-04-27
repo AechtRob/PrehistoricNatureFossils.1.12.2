@@ -36,11 +36,7 @@ public class BlockFossilDodo extends BlockSkeletonBase implements IArchiveVerteb
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_dodo";
-    }
+
 
     @Nullable
     @Override

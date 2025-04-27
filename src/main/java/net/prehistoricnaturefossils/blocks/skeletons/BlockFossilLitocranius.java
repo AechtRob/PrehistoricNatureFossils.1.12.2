@@ -36,11 +36,7 @@ public class BlockFossilLitocranius extends BlockSkeletonBase implements IArchiv
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_litocranius";
-    }
+
 
     @Nullable
     @Override

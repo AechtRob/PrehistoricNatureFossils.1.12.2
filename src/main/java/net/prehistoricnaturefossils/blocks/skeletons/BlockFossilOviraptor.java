@@ -35,11 +35,7 @@ public class BlockFossilOviraptor extends BlockSkeletonBase implements IArchiveV
             }
         }.setRegistryName(this.getRegistryName()));
     }
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_oviraptor";
-    }
+
 
     @Nullable
     @Override

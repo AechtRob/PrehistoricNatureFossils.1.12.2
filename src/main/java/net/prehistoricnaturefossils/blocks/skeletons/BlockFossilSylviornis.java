@@ -36,11 +36,7 @@ public class BlockFossilSylviornis extends BlockSkeletonBase implements IArchive
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_sylviornis";
-    }
+
 
     @Nullable
     @Override

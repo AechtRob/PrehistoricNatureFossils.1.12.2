@@ -36,11 +36,7 @@ public class BlockFossilTherizinosaurus extends BlockSkeletonBase implements IAr
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_therizinosaurus";
-    }
+
 
     @Nullable
     @Override

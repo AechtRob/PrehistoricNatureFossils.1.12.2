@@ -36,11 +36,7 @@ public class BlockFossilTheropithecus extends BlockSkeletonBase implements IArch
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_theropithecus";
-    }
+
 
     @Nullable
     @Override

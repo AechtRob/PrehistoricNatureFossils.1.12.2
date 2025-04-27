@@ -36,11 +36,7 @@ public class BlockFossilBuitreraptor extends BlockSkeletonBase implements IArchi
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_buitreraptor";
-    }
+
 
     @Nullable
     @Override
