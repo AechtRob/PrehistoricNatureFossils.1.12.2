@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kamuysaurus"
+		  },
+		"title": {
+			"translate": "advancements.kamuysaurus.title"
+		},
+		"description": {
+			"translate": "advancements.kamuysaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_saurolophines",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kamuysaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

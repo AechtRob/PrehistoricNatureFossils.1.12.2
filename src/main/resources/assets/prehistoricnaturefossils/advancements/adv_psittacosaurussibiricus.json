@@ -10,7 +10,7 @@
 			"translate": "advancements.psittacosaurussibiricus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:adv_ceratopsia",
+	"parent": "prehistoricnaturefossils:extras/adv_psittacosauri",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_psittacosaurussibiricus"

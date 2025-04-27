@@ -423,6 +423,7 @@ public class ModTriggers
     public static final CustomTrigger SINCLAIROMERYX_COMPLETE = new CustomTrigger("adv_sinclairomeryx");
     public static final CustomTrigger PANTHERATIGRIS_COMPLETE = new CustomTrigger("adv_pantheratigris");
     public static final CustomTrigger MONACHUS_COMPLETE = new CustomTrigger("adv_monachus");
+  
     public static final CustomTrigger JINYUNPELTASLAB_COMPLETE = new CustomTrigger("adv_jinyunpeltaslab");
     public static final CustomTrigger LITOCRANIUS_COMPLETE = new CustomTrigger("adv_litocranius");
     public static final CustomTrigger PLATECARPUS_COMPLETE = new CustomTrigger("adv_platecarpus");
@@ -443,8 +444,9 @@ public class ModTriggers
     public static final CustomTrigger THERIZINOSAURUS_COMPLETE = new CustomTrigger("adv_therizinosaurus");
     public static final CustomTrigger SYLVIORNIS_COMPLETE = new CustomTrigger("adv_sylviornis");
     public static final CustomTrigger RAJASAURUS_COMPLETE = new CustomTrigger("adv_rajasaurus");
-
-
+    public static final CustomTrigger MEGACEROPS_COMPLETE = new CustomTrigger("adv_megacerops");
+    public static final CustomTrigger KAMUYSAURUS_COMPLETE = new CustomTrigger("adv_kamuysaurus");
+  
     public static final CustomTrigger AETOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_aetosaurs");
     public static final CustomTrigger PLACODERMI_GROUP_COMPLETE = new CustomTrigger("trigger_placodermi");
     public static final CustomTrigger EUPELYCOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_eupelycosaurs");
@@ -751,6 +753,8 @@ public class ModTriggers
             SINCLAIROMERYX_COMPLETE,
             PANTHERATIGRIS_COMPLETE,
             MONACHUS_COMPLETE,
+            MEGACEROPS_COMPLETE,
+            KAMUYSAURUS_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,

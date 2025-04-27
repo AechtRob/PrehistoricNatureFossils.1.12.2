@@ -1,0 +1,21 @@
+{
+		"display": {
+			"icon": {
+				"item": "prehistoricnaturefossils:skeleton_placeholder"
+			},
+			"title": {
+				"translate": "advancements.brontotheriidae.title"
+			},
+			"description": {
+				"translate": "advancements.brontotheriidae.description"
+			},
+			"show_toast": false,
+			"announce_to_chat": false
+		},
+	"parent": "prehistoricnaturefossils:extras/adv_perissodactyla",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

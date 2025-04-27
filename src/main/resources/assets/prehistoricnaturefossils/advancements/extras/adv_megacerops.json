@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_megacerops"
+		  },
+		"title": {
+			"translate": "advancements.megacerops.title"
+		},
+		"description": {
+			"translate": "advancements.megacerops.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_brontotheriidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_megacerops"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}
